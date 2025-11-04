@@ -13,7 +13,6 @@ function App() {
 
   const onSubmit = (data) => {
     console.log(JSON.stringify(data));
-    // Reset form with custom values after submission
     reset({
       login: "",
       firstName: "Пам'ятай",
